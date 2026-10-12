@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "type": "corrective",
+  "metadata": {
+    "name": "Smoke Test Program",
+    "duration_weeks": 4,
+    "principle_md": "Smallest valid corrective payload — for skill smoke tests only."
+  },
+  "from_coach": {
+    "problem_md": "Placeholder problem statement for smoke-test purposes.",
+    "why_gym_alone_md": "Placeholder rationale for why gym work alone is insufficient.",
+    "what_correctives_do_md": "Placeholder description of what the correctives accomplish.",
+    "why_this_approach_md": "Placeholder defense of this particular program design.",
+    "what_to_expect_md": "Placeholder 4-week arc.",
+    "signature": {
+      "name": "Test Coach",
+      "date": "2026-05-26"
+    }
+  },
+  "volume_targets": [
+    {
+      "category": "mobility",
+      "category_label": "Mobility",
+      "weekly_targets": [
+        {
+          "id": "test-drill",
+          "name": "Test Drill",
+          "target_count": 3,
+          "unit": "sessions",
+          "instructions_md": "Perform the test drill three times per week."
+        }
+      ]
+    }
+  ]
+}

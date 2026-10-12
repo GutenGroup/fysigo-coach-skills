@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "type": "corrective",
+  "metadata": {
+    "name": "{{program-name}}",
+    "duration_weeks": 6,
+    "principle_md": "{{one-sentence principle}}"
+  },
+  "from_coach": {
+    "problem_md": "{{what is happening in the body, mechanism-level}}",
+    "why_gym_alone_md": "{{why current training will not fix it}}",
+    "what_correctives_do_md": "{{what these drills do at the mechanism level}}",
+    "why_this_approach_md": "{{why this program, not a generic mobility routine}}",
+    "what_to_expect_md": "{{week-by-week arc}}",
+    "signature": {
+      "name": "{{coach name}}",
+      "title": "{{credential, e.g. DPT}}",
+      "date": "{{YYYY-MM-DD}}"
+    }
+  },
+  "volume_targets": [
+    {
+      "category": "{{kebab-case-category}}",
+      "category_label": "{{Display Name}}",
+      "description_md": "{{1-2 sentences on why this category}}",
+      "weekly_targets": [
+        {
+          "id": "{{kebab-case-drill-id}}",
+          "name": "{{Display Name}}",
+          "target_count": 3,
+          "unit": "sessions",
+          "duration_per": "{{e.g. 10 min}}",
+          "instructions_md": "{{how to perform — cues, position, breath}}",
+          "why_md": "{{one-sentence rationale}}",
+          "tags": ["priority"]
+        }
+      ]
+    }
+  ]
+}
